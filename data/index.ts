@@ -1,7 +1,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -16,7 +15,7 @@ export const gridItems = [
     img: "/b1.svg",
     spareImg: "",
   },
-  {
+  /*{
     id: 2,
     title: "I'm very flexible with time zone communications",
     description: "",
@@ -25,7 +24,7 @@ export const gridItems = [
     titleClassName: "justify-start",
     img: "",
     spareImg: "",
-  },
+  },*/
   {
     id: 3,
     title: "My tech stack",
@@ -47,16 +46,16 @@ export const gridItems = [
     spareImg: "/b4.svg",
   },
 
-  {
+  /*{
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently working on DevOps domain",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
     spareImg: "/grid.svg",
-  },
+  },*/
   {
     id: 6,
     title: "Do you want to start a project together?",
@@ -72,34 +71,34 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "ContentdotAI - AI Content Generator",
+    des: "AI content generation site with templates for blog, YouTube, and social media content.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    iconLists: ["/re.svg","/next.svg", "/tail.svg", "/c.svg", "/google-gemini-icon.svg"],
+    link: "https://adityxb-ai-content-generator.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "NewsBunny - Live News website",
+    des: "Developed a responsive news app using React.js to display top headlines from various categories.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    iconLists: ["/re.svg", "/tail.svg", "node-js.svg"], //"/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://github.com/madbunny253/Project-react-NewsBunny",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Brainwave - Modern UI/UX website",
+    des: "A modern responsive UI/UX(frontend) of AI chatbot website.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    iconLists: ["/re.svg","/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://project-5-frontend-brainwave.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "CI/CD Pipeline Deployment using AWS Services",
+    des: "Set up GitHub for version control and automated deployment with AWS CodePipeline, CodeBuild, and CodeDeploy, deploying Dockerized apps to EC2.",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["github.svg", "aws.svg", "aws_2.svg"],
     link: "/ui.apple.com",
   },
 ];
@@ -173,15 +172,15 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Software Development Intern - Soluxionspace Pvt. Ltd.",
+    desc: "Assisted in the development of a web-based platform using HTML5, CSS3, JS and bootstrap enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
-  {
+  /*{
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Google Android Developer - Google Virtual Internship",
+    desc: "Designed and developed mobile app for Android platform using Android Studio",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
@@ -198,20 +197,24 @@ export const workExperience = [
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
-  },
+  },*/
 ];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/madbunny253", // Replace with your GitHub link
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://twitter.com/adityxb", // Replace with your Twitter link
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://linkedin.com/in/aditya-bodewar-71a4bb250/", // Replace with your LinkedIn link
   },
 ];
+
